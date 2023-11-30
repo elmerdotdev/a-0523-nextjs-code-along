@@ -17,7 +17,7 @@ export default function RootLayout(props: {
     <html lang="en">
       <body className={`${inter.className} p-2`}>
         {props.children}
-        {/* {props.modal} */}
+        {props.modal}
       </body>
     </html>
   )
